@@ -21,12 +21,28 @@ header > h1 {
   font-size: 3rem;
 }
 
-
-header > nav > a {
-  color: brown;
+ a {
+  color:white;
+  font-weight: bolder;
   text-decoration: none;
-  padding: 30px;
+  padding: 20px;
+ }
 
+
+ a:hover {
+padding: 10x;
+color: red;
+border-style: dotted;
+}
+
+img{
+  height: 100px;
+  flex-wrap: wrap;
+}
+
+img:hover {
+  scale: 1.1;
+  cursor: pointer;
 }
 
 main > .container{
@@ -35,13 +51,21 @@ main > .container{
   height: 100px;
   justify-content: center;
   padding:100px;
+  
 }
 
-footer{ 
+
+footer{
+
   text-align: center;  
-  margin-top: auto;
-  padding-top: 20px;
+  margin-top: auto; 
   height: 100px;
   background-color: black;
   color:white; 
 }
+
+footer > h4{
+margin-top:50px;
+
+}
+
