@@ -21,7 +21,7 @@ header > h1 {
   font-size: 3rem;
 }
 
- a {
+ header  a {
   color:white;
   font-weight: bolder;
   text-decoration: none;
@@ -29,14 +29,15 @@ header > h1 {
  }
 
 
- a:hover {
+ header  a:hover {
 padding: 10x;
 color: red;
 border-style: dotted;
 }
 
+
 img{
-  height: 100px;
+  height: 150px;
   flex-wrap: wrap;
 }
 
@@ -48,11 +49,11 @@ img:hover {
 main > .container{
   display: flex;
   background-color: white;
-  height: 100px;
   justify-content: center;
   padding:100px;
   
 }
+
 
 
 footer{
@@ -68,4 +69,3 @@ footer > h4{
 margin-top:50px;
 
 }
-
