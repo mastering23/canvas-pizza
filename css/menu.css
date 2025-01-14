@@ -1,0 +1,71 @@
+*{
+  margin: 0;
+  padding: 0;
+}
+
+body{
+background-color: orange;  
+display: flex;
+flex-direction: column;
+min-height: 100%;
+}
+
+header > nav {
+text-align: center;
+padding: 20px;
+}
+
+header > h1 {
+  text-align: center;
+  color:white;
+  font-size: 3rem;
+}
+
+ header  a {
+  color:white;
+  font-weight: bolder;
+  text-decoration: none;
+  padding: 20px;
+ }
+
+
+header  a:hover {
+padding: 10x;
+color: red;
+border-style: dotted;
+}
+
+
+
+main > .container{
+   background-color: white;
+  padding:100px;
+  
+}
+
+
+table {
+
+  display: flex;
+  flex-direction: column;
+  
+
+}
+
+img{
+  height:250px;
+}
+
+footer{
+
+  text-align: center;  
+  margin-top: auto; 
+  height: 100px;
+  background-color: black;
+  color:white; 
+}
+
+footer > h4{
+margin-top:50px;
+
+}
